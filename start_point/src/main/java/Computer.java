@@ -24,12 +24,11 @@ public class Computer {
     
     public void setPrinter(String newPrinter){
         this.printer = newPrinter;
-        //System.out.println(newPrinter);
-        this.isPrinterConnected = true;    }
+        this.isPrinterConnected = true;
+    }
 
-    public int addStorage(int extraStorage){
+    public void addStorage(int extraStorage){
         this.storage += extraStorage;
-        return this.storage ;
     }
     
     public void printMessage(String message){
